@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(0.25turn,#3f87a6,#dbadd8,#5887ef);
+}
+h1{
+   text-align: center;
+   margin-top: 10px;
+}
+section{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    position: relative;
+    box-shadow: 2px 2px 4px 10px black;
+    overflow: hidden;
+}
+@keyframes slider {
+    from{ background-image: url(../images/pexels-mateusz-dach-450035.jpg); }
+    to{ background-image: url(../images/pexels-eberhard-grossgasteiger-1367192.jpg);
+    }
+}
+/* @-webkit-keyframes slider{
+    from{ background-image: url(../images/pexels-mateusz-dach-450035.jpg); }
+    to{ background-image: url(../images/pexels-eberhard-grossgasteiger-1367192.jpg);}
+} */
+.images{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.buttons{
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 22px;
+}
+.button{
+    height: 40px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-weight: 200;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}

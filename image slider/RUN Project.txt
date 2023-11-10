@@ -1,0 +1,4 @@
+This is a Image slider using Html css and javascript
+To run a Project:-
+1.Open a HTML folder
+2.Inside a Html folder->index.html (run index.html file)
